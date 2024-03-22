@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYBU Photography Club - Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images\logo1.png" alt="AYBU Fotoğrafçılık Kulübü">
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="events.html">Etkinlikler</a></li>
+                <li><a href="portfolio.html">Portfolyo</a></li>
+                <li><a href="information_column.html">Bilgi Köşesi</a></li>
+                <li><a href="support.html">Destek</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <!-- Welcome Message Section -->
+        <section id="welcome-message" >
+            <div class="container">
+                <h1>AYBU Fotoğrafçılık Kulübüne Hoş Geldiniz!</h1>
+                <p>AYBU Fotoğrafçılık Kulübü, 2011 yılında kurulmuş ve o günden bu yana tutkusuyla yol alan bir topluluktur. 
+                    Her hafta düzenlediğimiz fotoğrafçılık atölyeleri, yarışmalar ve gezilerle, üyelerimize 
+                    fotoğrafçılık alanında deneyim kazandırmayı hedefliyoruz. Fotoğrafçılığa meraklıysan seni de aramızda görmek isteriz. Lütfen bizimle iletişime geç! </p>
+            </div>
+        </section>
+        
+        <!-- Photo Gallery Section -->
+        <section id="photo-gallery">
+            <div class="container">
+                <h2>Üyelerimizden</h2>
+                <!-- Slideshow -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img src="images/index/photo1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="images/index/photo2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="images/index/photo3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo4.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo5.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo6.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo7.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo8.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/index/photo9.jpg" style="width:100%">
+                    </div>
+                </div>
+                <br>
+
+                <!-- Galeride alttaki küçük fotoğraflar  -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span> 
+                    <span class="dot" onclick="currentSlide(8)"></span> 
+                    <span class="dot" onclick="currentSlide(9)"></span> 
+                </div>
+            </div>
+
+            <!-- Küçük fotoğrafların ayarlanması -->
+            <div class="thumbnail-container">
+                <div class="thumbnail">
+                    <img src="images/index/photo1.jpg" onclick="currentSlide(1)" alt="Thumbnail 1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo2.jpg" onclick="currentSlide(2)" alt="Thumbnail 2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo3.jpg" onclick="currentSlide(3)" alt="Thumbnail 3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo4.jpg" onclick="currentSlide(4)" alt="Thumbnail 4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo5.jpg" onclick="currentSlide(5)" alt="Thumbnail 5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo6.jpg" onclick="currentSlide(6)" alt="Thumbnail 6">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo7.jpg" onclick="currentSlide(7)" alt="Thumbnail 7">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo8.jpg" onclick="currentSlide(8)" alt="Thumbnail 8">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/index/photo9.jpg" onclick="currentSlide(9)" alt="Thumbnail 9">
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events Section -->
+        <section id="recent-events">
+            <div class="container">
+                <h2>Yaklaşan Etkinlikler</h2>
+                <ul>
+                    <li>Portre Atölyesi: Yer: Kulüp Salonu, Tarih: 25 Mart 2024 - Anlatıcı: Profesyonel Fotoğrafçı Ahmet Bey</li>
+                    <li>Fotoğraf Gezisi: Ankara Kalesi, Tarih: 28 Mart 2024 - <a href="#">Detaylar için web sitemizi takip edin!</a></li>
+                    <li>Fotoğraf Yarışması Sergisi: Yer: Kültür Merkezi, Tarih: 5 Nisan 2024 </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Announcements Section -->
+        <section id="announcements">
+            <div class="container">
+                <h2>Duyurular</h2>
+                <ul>
+                    <li>Yarınki atölyemizde portre fotoğrafçılığı teknikleri hakkında detaylı bir sunum olacak, hepinizi bekliyoruz!</li>
+                    <li>Gelecek hafta gerçekleştireceğimiz fotoğraf gezisi için son katılım tarihi yaklaşıyor, kayıtlarınızı yaptırmayı unutmayın!</li>
+                    <li>Önümüzdeki ay düzenleyeceğimiz fotoğraf yarışmasının teması belirlendi: "Doğa ve Manzara". Katılım koşulları ve detaylar için web sitemizi takip edin!</li>
+                </ul>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AYBU Fotoğrafçılık Kulübü</p>
+            <!-- Social Media Links -->
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="slideshow.js"></script> 
+</body>
+</html>
